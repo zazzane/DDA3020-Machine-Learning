@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dda3020-machine-learning"
+version = "0.1.0"
+description = "This is the dependecy mgmt for the dda3020 machine learning repo"
+authors = ["ZaneY <111720488+zazzane@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.1.1"
+cvxopt = "^1.3.2"
+numpy = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
